@@ -29,7 +29,7 @@ var constraints = {
 
 function handleSuccess(stream) {
   window.stream = stream; // make stream available to browser console
-
+    video.src = window.URL.createObjectURL(stream);
   video.srcObject = stream;
 }
 
@@ -37,48 +37,36 @@ function handleError(error) {
   console.log('navigator.getUserMedia error: ', error);
 }
 
+var promisifiedOldGUM = function(constraints) {
 
-if (navigator.getUserMedia)
-{
-    /*//qq浏览器不支持
-    if (navigator.userAgent.indexOf('MQQBrowser') > -1) {
-        alert('对不起，您的浏览器不支持拍照功能，请使用其他浏览器', '提示');
-        return false;
-    }*/
-    navigator.getUserMedia(videoObj, function (stream) {
-        console.log(stream);
-        video.src = stream;
-        video.play();
-    }, MediaErr);
-}
-else if(navigator.webkitGetUserMedia)
-{
-    navigator.webkitGetUserMedia(videoObj, function (stream)
-    {
-        console.log(stream);
-        video.src = window.webkitURL.createObjectURL(stream);
-        video.play();
-    }, MediaErr);
-}
-else if (navigator.mozGetUserMedia)
-{
-    navigator.mozGetUserMedia(videoObj, function (stream) {
-        console.log(stream);
-        video.src = window.URL.createObjectURL(stream);
-        video.play();
-    }, MediaErr);
-}
-else if (navigator.msGetUserMedia)
-{
-    navigator.msGetUserMedia(videoObj, function (stream) {
-        console.log(stream);
-        $(document).scrollTop($(window).height());
-        video.src = window.URL.createObjectURL(stream);
-        video.play();
-    }, MediaErr);
-}else{
-    alert('对不起，您的浏览器不支持拍照功能，请使用其他浏览器');
+    // First get ahold of getUserMedia, if present
+    var getUserMedia = (navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia);
+
+    // Some browsers just don't implement it - return a rejected promise with an error
+    // to keep a consistent interface
+    if(!getUserMedia) {
+        return Promise.reject(new Error('getUserMedia is not implemented in this browser'));
+    }
+
+    // Otherwise, wrap the call to the old navigator.getUserMedia with a Promise
+    return new Promise(function(resolve, reject) {
+        getUserMedia.call(navigator, constraints, resolve, reject);
+    });
 
 }
-/*navigator.mediaDevices.getUserMedia(constraints).
-    then(handleSuccess).catch(handleError);*/
+
+// Older browsers might not implement mediaDevices at all, so we set an empty object first
+if(navigator.mediaDevices === undefined) {
+    navigator.mediaDevices = {};
+}
+
+// Some browsers partially implement mediaDevices. We can't just assign an object
+// with getUserMedia as it would overwrite existing properties.
+// Here, we will just add the getUserMedia property if it's missing.
+if(navigator.mediaDevices.getUserMedia === undefined) {
+    navigator.mediaDevices.getUserMedia = promisifiedOldGUM;
+}
+navigator.mediaDevices.getUserMedia(constraints).
+    then(handleSuccess).catch(handleError);
