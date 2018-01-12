@@ -70,5 +70,6 @@ if(navigator.mediaDevices === undefined) {
 if(navigator.mediaDevices.getUserMedia === undefined) {
     navigator.mediaDevices.getUserMedia = promisifiedOldGUM;
 }
+console.log(navigator.mediaDevices);
 navigator.mediaDevices.getUserMedia(constraints).
     then(handleSuccess).catch(handleError);
