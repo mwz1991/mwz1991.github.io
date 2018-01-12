@@ -30,7 +30,7 @@ var constraints = {
 function handleSuccess(stream) {
   window.stream = stream; // make stream available to browser console
     video.src = window.URL.createObjectURL(stream);
-  video.srcObject = stream;
+  // video.srcObject = stream;
 }
 
 function handleError(error) {
