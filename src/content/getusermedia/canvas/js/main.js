@@ -38,5 +38,48 @@ function handleError(error) {
   console.log('navigator.getUserMedia error: ', error);
 }
 
-navigator.mediaDevices.getUserMedia(constraints).
-    then(handleSuccess).catch(handleError);
+
+if (navigator.getUserMedia)
+{
+    /*//qq浏览器不支持
+    if (navigator.userAgent.indexOf('MQQBrowser') > -1) {
+        alert('对不起，您的浏览器不支持拍照功能，请使用其他浏览器', '提示');
+        return false;
+    }*/
+    navigator.getUserMedia(videoObj, function (stream) {
+        console.log(stream);
+        video.src = stream;
+        video.play();
+    }, MediaErr);
+}
+else if(navigator.webkitGetUserMedia)
+{
+    navigator.webkitGetUserMedia(videoObj, function (stream)
+    {
+        console.log(stream);
+        video.src = window.webkitURL.createObjectURL(stream);
+        video.play();
+    }, MediaErr);
+}
+else if (navigator.mozGetUserMedia)
+{
+    navigator.mozGetUserMedia(videoObj, function (stream) {
+        console.log(stream);
+        video.src = window.URL.createObjectURL(stream);
+        video.play();
+    }, MediaErr);
+}
+else if (navigator.msGetUserMedia)
+{
+    navigator.msGetUserMedia(videoObj, function (stream) {
+        console.log(stream);
+        $(document).scrollTop($(window).height());
+        video.src = window.URL.createObjectURL(stream);
+        video.play();
+    }, MediaErr);
+}else{
+    alert('对不起，您的浏览器不支持拍照功能，请使用其他浏览器');
+
+}
+/*navigator.mediaDevices.getUserMedia(constraints).
+    then(handleSuccess).catch(handleError);*/
