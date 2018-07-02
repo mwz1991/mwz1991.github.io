@@ -11,9 +11,9 @@ var vm = new Vue({
         download(index) {
             console.log('download');
             console.log(JSON.stringify(index));
-            //var el = event.target;
-            //el.innerHTML = "&#xe9bc;";
-            //el.classList.add("active");
+            var el = event.target;
+            el.innerHTML = "&#xe9bc;";
+            el.classList.add("active");
         }
     },
      filters: {
