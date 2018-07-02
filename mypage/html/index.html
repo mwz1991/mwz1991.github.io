@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>ma-个人首页</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <!--用于解决ie8不支持media响应式-->
+    <script src="../js/respond.min.js"></script>
+    <!--*********************************-->
+    <!--<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>-->
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="../js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/jquery.bootstrap-dropdown-on-hover.js"></script>
+
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+</head>
+<body data-offset="50" data-target="#nav-vertival-scrollspy" data-spy="scroll">
+<header>
+    <div class="navbar-bg animated bounce">
+        <div class="container">
+            <nav class="navbar" id="navbar-scrollspy">
+                <div class="navbar-header">
+                    <a href="#"><img src="../images/kiss.gif"></a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse-responsive">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse navbar-collapse-responsive">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">首页<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu animated" data-animation="fadeInDown">
+                                <li><a href="http://image.baidu.com/">图片</a></li>
+                                <li><a href="http://www.youku.com/">视频</a></li>
+                                <li><a href="http://music.163.com/">音乐</a></li>
+                                <li><a href="http://www.wufafuwu.com/">文章</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="http://image.baidu.com/">图片</a>
+                        </li>
+                        <li>
+                            <a href="http://www.youku.com/">视频</a>
+                        </li>
+                        <li>
+                            <a href="http://music.163.com/">音乐</a>
+                        </li>
+                        <li>
+                            <a href="http://www.wufafuwu.com/">文章</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right " id="phone-app">
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-phone red"></span>
+                                <span class="rem1">下载客户端</span>
+                            </a>
+                            <ul class="dropdown-menu" data-animation="flipInX">
+                                <li><img src="../images/app-download.png"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">注册</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-right navbar-form" id="search">
+                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <div class="form-group">
+                            <input type="text" class="form-control dh200" placeholder="请输入关键词" id="searchText">
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <div class="navbar-bgdown"></div>
+    <div class="navbar-img" style="background-image: url(../images/nav-img.jpg);">
+        <a id="point" href="##"></a>
+    </div>
+    <span id="tooltip-navbarimg" class="tooltip right fade in">
+        <div class="tooltip-arrow" style="top: 50%;"></div>
+        <div class="tooltip-inner">谁执我手,陪我痴狂千生 ′!.．. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;谁吻我眸,陪我千世轮回 ′!.．.</div>
+    </span>
+
+    <!--<img src="../images/kiss.gif" id="tooltip-navbarimg">-->
+</header>
+<div class="container">
+    <div class="row">
+        <!--左侧的轮播-->
+        <div id="carousel-left" class="carousel col-md-5 col-xs-12" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-left" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-left" data-slide-to="1"></li>
+                <li data-target="#carousel-left" data-slide-to="2"></li>
+                <li data-target="#carousel-left" data-slide-to="3"></li>
+                <li data-target="#carousel-left" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../images/carousel/1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/carousel/2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/carousel/3.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/carousel/4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/carousel/5.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-controlnew" href="#carousel-left" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-controlnew" href="#carousel-left" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--右侧的轮播-->
+        <div id="carousel-right" class="carousel slide col-md-7 col-xs-12" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-right" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-right" data-slide-to="1"></li>
+                <li data-target="#carousel-right" data-slide-to="2"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="##">
+                                <img src="../images/b/1.jpg">
+                                <!--							<div class="info">
+                                                                <div class="t">【Fate/stay night-震撼高燃-AMV】荆棘前路，命运之战</div>
+                                                                <p class="up">up主：花宫二橙</p>
+                                                                <p class="play">播放：255120</p>
+                                                            </div>-->
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/2.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/3.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="row row-spacing">
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/4.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/5.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/6.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="##">
+                                <img src="../images/b/7.jpg">
+                                <!--								<div class="info">
+                                                                    <div class="t">【Fate/stay night-震撼高燃-AMV】荆棘前路，命运之战</div>
+                                                                    <p class="up">up主：花宫二橙</p>
+                                                                    <p class="play">播放：255120</p>
+                                                                </div>-->
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/8.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/9.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="row row-spacing">
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/10.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/11.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/12.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/13.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/14.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/15.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="row row-spacing">
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/16.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/17.jpg"></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="##"><img
+                                    src="../images/b/18.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-controlnew" href="#carousel-right" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-controlnew" href="#carousel-right" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="ad-img">
+        <a href="#"><img src="..\images\10d9a293e565d28cad6cc8d728ff4979bdac236a.jpg"></a>
+    </div>
+</div>
+<div class="container">
+    <div class="b-section-body">
+        <div class="b-l">
+            <div class="b-head">
+
+                <span class="b-head-img tupian"></span>
+				<span class="b-head-text">
+					<a href="##" id="tupian"><span>图片</span></a>
+				</span>
+                <div class="update-div" title="点击随机切换图片显示" id="mybtn">
+                <span class="update" ></span>
+                    <span class="info" >切换图片</span>
+                </div>
+            </div>
+            <div class="b-body">
+                <ul class="b-body-ul list-unstyled">
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/19.jpg">
+                            </a>
+
+                                <div class="t"><a href="##" title="扬起嘴角，永远猜不到的下一秒!..">【此生丶】扬起嘴角，永远猜不到的下一秒!..</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/20.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="不是爱风尘，似被前缘误.">【此生丶】不是爱风尘，似被前缘误.</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/21.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="你引我入华胥一梦，可曾为君倾杯，为君一展欢颜。">【此生丶】你引我入华胥一梦，可曾为君倾杯，为君一展欢颜。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/22.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="我自是年少，韶华倾负。">【此生丶】我自是年少，韶华倾负。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/23.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="有时候，闭上嘴，放下骄傲，承认是自己错了，不是认输，而是成长。">【此生丶】有时候，闭上嘴，放下骄傲，承认是自己错了，不是认输，而是成长。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/24.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="真正能平静自己的只有自己。">【此生丶】真正能平静自己的只有自己。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/25.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="用我三生烟火，换你一世迷离。">【此生丶】用我三生烟火，换你一世迷离。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/26.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="人生,就是不断的做出选择和一次次的没得选择.">【此生丶】人生,就是不断的做出选择和一次次的没得选择.</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="b-r">
+            <div class="b-head">
+
+				<span class="b-head-text">
+					<a href="##"><span>排行</span></a>
+				</span>
+            </div>
+            <div class="b-r-body">
+                <ul class="rlist list-unstyled">
+                    <li class="b-r-body-item on">
+                        <i class="num">1</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/22.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="【MMD】IA/RIN/MIKU/LUKA/LEN 夜里亦始终想着你(TDA改变)">【MMD】IA/RIN/MIKU/LUKA/LEN 夜里亦始终想着你(TDA改变)</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">2</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/1.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="我曾想过千万种结局.....唯独没有猜到，我们之间没有结局...">我曾想过千万种结局.....唯独没有猜到，我们之间没有结局...</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">3</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/2.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="你走天桥，我走地下道……你的幸福，路人皆知，我的悲伤，无处遁形。">你走天桥，我走地下道……你的幸福，路人皆知，我的悲伤，无处遁形。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">4</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/3.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="小时候，觉得爱是牵住彼此的手；长大后，觉得爱是发现彼此的好；成熟后，发现原来爱是成全彼此的心。">小时候，觉得爱是牵住彼此的手；长大后，觉得爱是发现彼此的好；成熟后，发现原来爱是成全彼此的心。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">5</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/4.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="你可知道，生死的那个关头，心中最眷念的人，便是你吗？你可知道，梦回青云，万千缠绵的心绪，只为你吗？">你可知道，生死的那个关头，心中最眷念的人，便是你吗？你可知道，梦回青云，万千缠绵的心绪，只为你吗？</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">6</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/5.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="戏子入画，一生天涯。只身步步海天涯、路无归、霜满颜。夜微凉、灯微暗、暧昧散尽、笙歌婉转。">戏子入画，一生天涯。只身步步海天涯、路无归、霜满颜。夜微凉、灯微暗、暧昧散尽、笙歌婉转。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">7</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/6.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="山长水阔知何处，一蓑烟雨任平生">山长水阔知何处，一蓑烟雨任平生</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-r-more">
+                <a href="##">查看更多</a>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="b-section-body">
+        <div class="b-l">
+            <div class="b-head">
+
+                <span class="b-head-img shipin"></span>
+				<span class="b-head-text">
+					<a href="##" id="shipin"><span>视频</span></a>
+				</span>
+
+            </div>
+            <div class="b-body">
+                <ul class="b-body-ul list-unstyled">
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/27.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="三生石，三生路.">【此生丶】三生石，三生路.</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/28.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="世有解语花,凭谁解花语.">【此生丶】世有解语花,凭谁解花语.</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/29.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="倾尽天下不负你.">【此生丶】倾尽天下不负你.</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/30.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="前世今生，我们亦相爱。">【此生丶】前世今生，我们亦相爱。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/31.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="夜色漫，青莲月，墨迹绘不尽红妆； 桃花面，菩提下，白蕊漾成了流光。">【此生丶】夜色漫，青莲月，墨迹绘不尽红妆； 桃花面，菩提下，白蕊漾成了流光。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/32.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="若今昔一别，一别永年，苍山负雪，浮生尽歇。">【此生丶】若今昔一别，一别永年，苍山负雪，浮生尽歇。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/33.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="多少红颜悴，多少相思碎，唯留血染墨香哭乱冢。">【此生丶】多少红颜悴，多少相思碎，唯留血染墨香哭乱冢。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/34.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="一场梦. 人走茶凉 ′!.．.忆若水. 曲终人散 ′!.．. ">【此生丶】一场梦. 人走茶凉 ′!.．. 忆若水. 曲终人散 ′!.．. </a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="b-r">
+            <div class="b-head">
+
+				<span class="b-head-text">
+					<a href="##"><span>排行</span></a>
+				</span>
+            </div>
+            <div class="b-r-body">
+                <ul class="rlist list-unstyled">
+                    <li class="b-r-body-item on">
+                        <i class="num">1</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/28.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="用我一生，再换你十年天真无邪。">用我一生，再换你十年天真无邪。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">2</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/29.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="如今我终于明白，我渡得过万里狂风，渡得过千条性命，渡得过诗酒年华，却渡不过，你不顾而去的目光。">如今我终于明白，我渡得过万里狂风，渡得过千条性命，渡得过诗酒年华，却渡不过，你不顾而去的目光。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">3</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/30.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="我宁可我们不曾相濡以沫。我但愿我们从来就相忘于江湖">我宁可我们不曾相濡以沫。我但愿我们从来就相忘于江湖</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">4</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/31.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="我爱你，但与你无关。因为我爱上的只是自己的心情，只是你的倒影。 ">我爱你，但与你无关。因为我爱上的只是自己的心情，只是你的倒影。 </a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">5</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/32.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="我们总是把最宽容的样子留给别人，却把最恶毒最伤人的话留给了自己最亲的人。">我们总是把最宽容的样子留给别人，却把最恶毒最伤人的话留给了自己最亲的人。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">6</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/33.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="谁将烟焚散，散了纵横的牵绊，听弦断，断那三千痴缠。">谁将烟焚散，散了纵横的牵绊，听弦断，断那三千痴缠。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">7</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/34.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="坠花湮，湮没一朝风涟。花若怜，落在谁的指尖。">坠花湮，湮没一朝风涟。花若怜，落在谁的指尖</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-r-more">
+                <a href="##">查看更多</a>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="b-section-body">
+        <div class="b-l">
+            <div class="b-head">
+
+                <span class="b-head-img yinyue"></span>
+				<span class="b-head-text">
+					<a href="##" id="yinyue"><span>音乐</span></a>
+				</span>
+                <audio id="media" src="../song/阿桑-一直很安静.mp3" controls ></audio>
+            </div>
+            <div class="b-body">
+                <ul class="b-body-ul list-unstyled col-o">
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/35.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="回眸望，你的容颜，只一眼，万水千山，只一眼，碧落黄泉，只一眼，便此生不换。">【此生丶】回眸望，你的容颜，只一眼，万水千山，只一眼，碧落黄泉，只一眼，便此生不换。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/36.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="寄君一曲，不问曲终人聚散。">【此生丶】寄君一曲，不问曲终人聚散。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/37.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="听弦断，断那三千痴缠。坠花湮，湮没一朝风涟。花若怜，落在谁的指尖。">【此生丶】听弦断，断那三千痴缠。坠花湮，湮没一朝风涟。花若怜，落在谁的指尖。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/38.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="谁将烟焚散，散了纵横的牵绊。">【此生丶】谁将烟焚散，散了纵横的牵绊。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/39.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="苍茫大地一剑尽挽破，何处繁华笙歌落。斜倚云端千壶掩寂寞，纵使他人空笑我。">【此生丶】苍茫大地一剑尽挽破，何处繁华笙歌落。斜倚云端千壶掩寂寞，纵使他人空笑我。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/40.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="终于为那一身江南烟雨覆了天下，容华谢后，不过一场，山河永寂。">【此生丶】终于为那一身江南烟雨覆了天下，容华谢后，不过一场，山河永寂。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/41.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="长街长，烟花繁，你挑灯回看。短亭短，红尘辗，我把萧再叹。">【此生丶】长街长，烟花繁，你挑灯回看。短亭短，红尘辗，我把萧再叹。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/42.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="乌云蔽月，人迹踪绝，说不出如斯寂寞。">【此生丶】乌云蔽月，人迹踪绝，说不出如斯寂寞。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="b-r">
+            <div class="b-head">
+
+				<span class="b-head-text">
+					<a href="##"><span>排行</span></a>
+				</span>
+            </div>
+            <div class="b-r-body">
+                <ul class="rlist list-unstyled">
+                    <li class="b-r-body-item on">
+                        <i class="num">1</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/38.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="如果，我知道有一天我会这么爱你，我一定对你一见钟情">如果，我知道有一天我会这么爱你，我一定对你一见钟情</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">2</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/39.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="有时候，我们愿意原谅一个人，并不是真的愿意原谅他，而是不愿意失去他。">有时候，我们愿意原谅一个人，并不是真的愿意原谅他，而是不愿意失去他。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">3</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/40.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="道歉并不总意味着你是错的，它只是意味着你更珍惜你们之间的关系。">道歉并不总意味着你是错的，它只是意味着你更珍惜你们之间的关系。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">4</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/41.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="专一不是一辈子只喜欢一个人，是喜欢一个人的时候一心一意。">专一不是一辈子只喜欢一个人，是喜欢一个人的时候一心一意。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">5</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/42.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="我除了你，还有什么能失去。除了白骨黄土，我守你百岁无忧。">我除了你，还有什么能失去。除了白骨黄土，我守你百岁无忧。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">6</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/43.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="既不回头，何必不忘。既然无缘，何须誓言。今日种种，似水无痕。明夕何夕，君已陌路。">既不回头，何必不忘。既然无缘，何须誓言。今日种种，似水无痕。明夕何夕，君已陌路。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">7</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/44.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="纵使情深，奈何缘浅，但不悔相思。">纵使情深，奈何缘浅，但不悔相思。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-r-more">
+                <a href="##">查看更多</a>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="b-section-body">
+        <div class="b-l">
+            <div class="b-head">
+
+                <span class="b-head-img wenzhang"></span>
+				<span class="b-head-text">
+					<a href="##" id="wenzhang"><span>文章</span></a>
+				</span>
+
+            </div>
+            <div class="b-body">
+                <ul class="b-body-ul list-unstyled">
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/43.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="终是谁使弦断，花落肩头，恍惚迷离。">【此生丶】终是谁使弦断，花落肩头，恍惚迷离。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/44.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="风华笔墨，后庭尘埃。便天光云影，不与徘徊。纵三千里河山，亦四十年蓬莱。青丝染霜，镜鸾沉彩。">【此生丶】风华笔墨，后庭尘埃。便天光云影，不与徘徊。纵三千里河山，亦四十年蓬莱。青丝染霜，镜鸾沉彩。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/45.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="梦中几次与君同，怕是花依然人不同。">【此生丶】梦中几次与君同，怕是花依然人不同。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/46.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="花开彼岸本无岸，魂落忘川尤在川。醉里不知烟波浩，梦中依稀灯火寒。">【此生丶】花开彼岸本无岸，魂落忘川尤在川。醉里不知烟波浩，梦中依稀灯火寒。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/47.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="多少红颜悴，多少相思碎，唯留血染墨香哭乱冢。">【此生丶】多少红颜悴，多少相思碎，唯留血染墨香哭乱冢。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/48.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="Be dead,and to rise from the dead.风信子花期的秘密，不过是死后然后重生而已…">【此生丶】Be dead,and to rise from the dead.风信子花期的秘密，不过是死后然后重生而已…</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/49.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="梦回烟雨兀自迷，夜阑珊，星火不语，晚风孤亭。一城烟雨，醉写山色楚江清，半晌风絮，昨日悲欢说不尽。">【此生丶】梦回烟雨兀自迷，夜阑珊，星火不语，晚风孤亭。一城烟雨，醉写山色楚江清，半晌风絮，昨日悲欢说不尽。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                    <li class="b-body-item">
+                        <div class="v">
+                            <a class="preview" href="##">
+                                <img class="jsonimg" src="../images/b/50.jpg">
+                            </a>
+                            
+                                <div class="t"><a href="##" title="当我牵你衣袖，与你执手，我的生命便尽赋于你，相依相伴，或生，或死。">【此生丶】当我牵你衣袖，与你执手，我的生命便尽赋于你，相依相伴，或生，或死。</a></div>
+                                <div class="i">
+									<span>
+										<i class="icon-play"></i>
+										8826
+									</span>
+									<span>
+										<i class="icon-dm"></i>
+										8826
+									</span>
+                                </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="b-r">
+            <div class="b-head">
+
+				<span class="b-head-text">
+					<a href="##"><span>排行</span></a>
+				</span>
+            </div>
+            <div class="b-r-body">
+                <ul class="rlist list-unstyled">
+                    <li class="b-r-body-item on">
+                        <i class="num">1</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/46.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="是谁，倾一世容颜，换一生相许。">是谁，倾一世容颜，换一生相许。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">2</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/45.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="息曰:“普天之下,万物如尘,唯汝是吾心头之珠。渗吾之骨,融吾之血,割舍不得!”">息曰:“普天之下,万物如尘,唯汝是吾心头之珠。渗吾之骨,融吾之血,割舍不得!”</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">3</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/47.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="爱是，再远都在你身旁。">爱是，再远都在你身旁。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">4</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/48.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="木下初梦醒，陌上忽浮香。">木下初梦醒，陌上忽浮香。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">5</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/49.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="生命中有很多事情足以把你打倒，但真正能把你打倒的是你的心态。">生命中有很多事情足以把你打倒，但真正能把你打倒的是你的心态。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">6</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/50.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="生生的两端，我们彼此站成了岸。">生生的两端，我们彼此站成了岸。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="b-r-body-item">
+                        <i class="num">7</i>
+                        <div class="preview">
+                            <a href="##"><img src="../images/b/42.jpg"></a>
+                        </div>
+                        <div class="r-info">
+                            <div class="r-title"><a href="##" title="是宿命的悲、还是轮回的痛。">是宿命的悲、还是轮回的痛。</a></div>
+                            <div class="i">
+                                <b class="pts" title="综合评分: 10.6万">综合评分：10.6万</b>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-r-more">
+                <a href="##">查看更多</a>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--侧边栏-->
+<div class="nav-vertical" id="nav-vertival-scrollspy">
+    <ul class="nav nav-vertical-ul">
+        <li><a href="#tupian">图片</a></li>
+        <li><a href="#shipin">视频</a></li>
+        <li><a href="#yinyue">音乐</a></li>
+        <li><a href="#wenzhang">文章</a></li>
+
+    </ul>
+</div>
+
+<!--火箭返回顶部-->
+<div class="rocket-to-top">
+    <div class="level-2">
+
+    </div>
+    <div class="level-3">
+
+    </div>
+</div>
+
+
+<div class="panel-footer">
+    <div class="container">
+        <div class="footer-l">
+        <span>
+            <span class="">©</span>
+             2015-2016 马伟智版权所有
+        </span>
+         |
+        <a href="##"
+           data-container="body"
+           data-toggle="popover"
+           data-placement="top"
+           data-html="true"
+           data-content='本网站用于前端开发练习'
+           data-trigger="hover">关于我们</a>
+         |
+        <a href="##"
+           data-container="body"
+           data-toggle="popover"
+           data-placement="top"
+           data-html="true"
+           data-content='电话号码:18378588523'
+           data-trigger="hover">联系方法</a>
+         |
+        <a href="##">客户服务</a>
+        |
+        <a href="##">帮助中心</a>
+         |
+        <a href="##">隐私政策</a>
+         |
+        <a href="##">广告服务</a>
+         |
+        <a href="##">意见反馈</a>
+         |
+        <a href="##">不良信息举报</a>
+         |
+        <a href="##">网站合作</a>
+         |
+        <a href="##"
+           data-container="body"
+           data-toggle="popover"
+           data-placement="top"
+           data-html="true"
+           data-content='本站只作为本人练习所用'
+           data-trigger="hover">法律声明</a>
+        </div>
+        <div class="footer-r">
+            <div class="weixin"
+                 data-container="body"
+                 data-toggle="popover"
+                 data-placement="top"
+                 data-html="true"
+                 data-content='<img style="width:120px;height:120px" src="..\images\wx2d.png">'
+                 data-trigger="hover"></div>
+            <div class="qq"
+                 data-container="body"
+                 data-toggle="popover"
+                 data-placement="top"
+                 data-html="true"
+                 data-content='<img style="width:120px;height:170px" src="../images/qq2-d.jpg"><br><span>QQ:40335749</span>'
+                 data-trigger="hover"></div>
+            <div class="weibo"></div>
+
+        </div>
+    </div>
+</div>
+
+<!--<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>-->
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<script>
+//    	$('body').scrollspy({ target: '#navbar-scrollspy' })
+$(function() {
+    $('[data-toggle="popover"]').popover();
+
+
+
+});
+</script>
+</body>
+</html>

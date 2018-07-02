@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型链</title>
+</head>
+<body>
+    <script>
+        function Animal() {
+
+        }
+        Animal.prototype={
+            name:"animal",
+            weight:0,
+            eat:function () {
+            alert("Animal is eating!");
+            }
+        };
+        function Mammal() {
+//            this.name="mam111mal";
+        }
+        Mammal.prototype=new Animal();
+
+        function Horse(height, weight) {
+           // this.name="horse";
+            this.height=height;
+            this.weight=weight;
+        }
+
+        Horse.prototype=new Mammal();
+
+        Horse.prototype.eat=function () {
+            alert("马儿正在吃草！");
+        };
+
+        var horse= new Horse(100,300);
+        alert(horse.name);
+
+    </script>
+</body>
+</html>
