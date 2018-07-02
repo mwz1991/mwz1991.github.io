@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>作业任务</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/homeworktask.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+    <!--<script>
+        $(function () {
+            $('.select-item').click(function (e) {
+                window.location.href = '/weixin/HomeworkTask/Index?Date=' + $(e.target).attr('id');
+            })
+        })
+    </script>-->
+
+
+</head>
+<body>
+
+<div id="app">
+    <div class="header">
+        <div class="back" v-on:click="back">
+            <i class="iconfont">&#xe60d;</i>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="titile">
+            作业任务
+        </div>
+        <div class="right" v-on:click="toggle">
+            <i class="iconfont">&#xe61f;</i>
+            <div class="select-wrapper" v-show="selectShow">
+                <div class="select-item">今日作业</div>
+                <div class="select-item">星期一作业</div>
+                <div class="select-item">上周五作业</div>
+                <div class="select-item">上周四作业</div>
+                <div class="select-item">上周三作业</div>
+            </div>
+        </div>
+    </div>
+    <div v-if="flag_bgshow" class="bg">
+        <img src="../Content/img/selectdate.png"/>
+    </div>
+    <div ref="homeworklist" class="homeworklist">
+
+        <div class="list-item" v-on:click="showDetail">
+            <div class="head-left">语文</div>
+            <div class="head-right">
+                <div class="public-person">发布人：XXX（语文老师）</div>
+                <div class="msg">
+                    <span class="class">班级范围：一年级6班</span>
+                    <span class="time">2018-04-30 14：30</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-item">1、练习册p10</div>
+                <div class="content-item">2、练习课文1生字，明天课堂默写</div>
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+        <div class="list-item" v-on:click="showDetail">
+            <div class="head-left">数学</div>
+            <div class="head-right">
+                <div class="public-person">发布人：XXX（数学老师）</div>
+                <div class="msg">
+                    <span class="class">班级范围：一年级6班</span>
+                    <span class="time">2018-04-30 14：30</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-item">1、练习册p10</div>
+                <div class="content-item">2、练习课文1生字，明天课堂默写</div>
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+        <div class="list-item" v-on:click="showDetail">
+            <div class="head-left">英语</div>
+            <div class="head-right">
+                <div class="public-person">发布人：XXX（英语老师）</div>
+                <div class="msg">
+                    <span class="class">班级范围：一年级6班</span>
+                    <span class="time">2018-04-30 14：30</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-item">1、练习册p10</div>
+                <div class="content-item">2、练习课文1生字，明天课堂默写</div>
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+
+
+    </div>
+    <transition name="move">
+        <div class="homework-detail" v-show="detailshow">
+            <div class="header">
+                <div class="back" v-on:click="hideDetail">
+                    <i class="iconfont">&#xe60d;</i>
+                </div>
+                <div class="titile">
+                    星期一作业
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-wapper">
+                    <div class="head">
+                        <div class="time">2018-5-20 23:31 星期日</div>
+                        <div class="class">班级范围：一年级1-6班</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-item">1、练习册p10</div>
+                        <div class="content-item">2、练写课文1生字，明天课堂默写</div>
+                        <div class="content-item">3、练写课文1生字，明天课堂默写</div>
+                    </div>
+                    <div class="box">
+                        <div class="left-triangle"></div>
+                        <div class="right-triangle"></div>
+                        <div class="avatar">
+                            <img src="../Content/img/2.jpg" height="80" width="80"/>
+                        </div>
+                        <div class="cicle-bg"></div>
+                        <div class="msg">
+                            <div class="title">发布人</div>
+                            <div class="name">xxx(语文老师)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </transition>
+</div>
+<script src="../Content/js/homeworktask.js"></script>
+</body>
+</html>

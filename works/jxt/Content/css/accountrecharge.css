@@ -1,0 +1,245 @@
+﻿body {
+    background: #ebf2ff;
+}
+
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+    .header .back {
+        position: absolute;
+        left: 0;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .header .vertical-line {
+        position: absolute;
+        left: 38px;
+        top: 15%;
+        height: 70%;
+        border-left: 1px solid #fff;
+    }
+
+    .header .titile {
+        padding: 0 50px;
+    }
+
+    .header .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+.rechargemoney {
+    margin-top: 10px;
+    background: #ffffff;
+}
+
+    .rechargemoney h2 {
+        margin-left: 15px;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .rechargemoney .input {
+        position: relative;
+        display: flex;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+        .rechargemoney .input i {
+            position: absolute;
+            top: 0;
+            left: 15px;
+            line-height: 36px;
+            font-style: normal;
+            font-size: 14px;
+            font-weight: bold;
+            color: #696868;
+        }
+
+        .rechargemoney .input input {
+            flex: 1;
+            margin-left: 32px;
+            height: 36px;
+            line-height: 36px;
+            border: none;
+            background: #ffffff;
+        }
+
+    .rechargemoney p {
+        margin-left: 15px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 10px;
+        color: #757575;
+    }
+
+.msg {
+    margin-top: 10px;
+    background: #ffffff;
+}
+
+    .msg .item {
+        position: relative;
+        display: flex;
+        padding: 0 15px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+        .msg .item .input-label {
+            display: inline-block;
+            flex-shrink: 0;
+            width: 76px;
+            line-height: 36px;
+            font-size: 14px;
+        }
+
+        .msg .item input {
+            flex: 1;
+            flex-shrink: 1;
+            min-width: 100px;
+            height: 36px;
+            line-height: 36px;
+            border: none;
+            background: #ffffff;
+        }
+
+        .msg .item .shortmessage {
+            flex-shrink: 0;
+            width: 65px;
+            height: 36px;
+            line-height: 34px;
+        }
+
+            .msg .item .shortmessage .yzm {
+                display: inline-block;
+                padding: 0;
+                width: 100%;
+                height: 20px;
+                line-height: 22px;
+                text-align: center;
+                border-radius: 2px;
+                background: #7fb2ff;
+                font-size: 10px;
+                color: #ffffff;
+            }
+
+                .msg .item .shortmessage .yzm.count {
+                    background: #e5e5e5;
+                    color: #333333;
+                }
+
+.pay-way {
+    margin-top: 10px;
+    padding-left: 15px;
+    height: 36px;
+    line-height: 36px;
+    background: #ffffff;
+    font-size: 10px;
+    color: #7fb2ff;
+}
+
+.btn {
+    margin: 36px 40px 0 40px;
+}
+
+    .btn button {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border: none;
+        border-radius: 5px;
+        background: #5084cb;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+.recharge-result {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+    background: #ECF2FF;
+    transition: all 0.2s linear;
+    transform: translate3d(0, 0, 0);
+    overflow: auto;
+}
+
+    .recharge-result.move-enter,
+    .recharge-result.move-leave-active {
+        transform: translate3d(100%, 0, 0);
+    }
+
+    .recharge-result .main {
+        margin-top: 10px;
+        padding: 30px 0 46px 0;
+        background: #ffffff;
+        text-align: center;
+    }
+
+        .recharge-result .main .img img {
+            width: 70px;
+        }
+
+        .recharge-result .main .img p {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #4c4c4c;
+        }
+
+        .recharge-result .main .text {
+            margin-top: 20px;
+        }
+
+            .recharge-result .main .text h6 {
+                font-size: 10px;
+                color: #838383;
+            }
+
+            .recharge-result .main .text .money {
+                display: block;
+                margin-top: 10px;
+                font-size: 28px;
+                font-weight: bold;
+                color: #4c4c4c;
+            }
+
+    .recharge-result .btn {
+        margin-top: 22px;
+    }
+
+input::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-size: 10px;
+    color: #bebebe;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 10px;
+    color: #bebebe;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 10px;
+    color: #bebebe;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 10px;
+    color: #bebebe;
+}

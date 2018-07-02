@@ -1,0 +1,111 @@
+﻿body {
+    background: #ebf2ff;
+}
+
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+    .header .back {
+        position: absolute;
+        left: 0;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .header .vertical-line {
+        position: absolute;
+        left: 38px;
+        top: 15%;
+        height: 70%;
+        border-left: 1px solid #fff;
+    }
+
+    .header .titile {
+        padding: 0 50px;
+    }
+
+    .header .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+.main {
+    padding: 36px 40px 0 40px;
+}
+
+    .main .tip {
+        font-size: 10px;
+    }
+
+    .main .input {
+        position: relative;
+        margin-top: 20px;
+        padding: 0 10px 0 36px;
+        height: 40px;
+        border: 1px solid #dcdcdc;
+        border-radius: 5px;
+        background: #ffffff;
+    }
+
+        .main .input .iconfont {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            line-height: 40px;
+            color: #bebebe;
+        }
+
+        .main .input input {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            background: #fff;
+        }
+
+            .main .input input::-webkit-input-placeholder {
+                /* WebKit, Blink, Edge */
+                font-size: 10px;
+                color: #bebebe;
+            }
+
+            .main .input input:-moz-placeholder {
+                /* Mozilla Firefox 4 to 18 */
+                font-size: 10px;
+                color: #bebebe;
+            }
+
+            .main .input input::-moz-placeholder {
+                /* Mozilla Firefox 19+ */
+                font-size: 10px;
+                color: #bebebe;
+            }
+
+            .main .input input:-ms-input-placeholder {
+                /* Internet Explorer 10-11 */
+                font-size: 10px;
+                color: #bebebe;
+            }
+
+    .main .btn {
+        margin-top: 60px;
+    }
+
+        .main .btn button {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            border: none;
+            border-radius: 5px;
+            background: #5084cb;
+            font-size: 14px;
+            color: #ffffff;
+        }

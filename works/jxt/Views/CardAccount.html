@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>卡片账户</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/cardaccount.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="app">
+    <div class="header">
+        <div class="back" v-on:click="back">
+            <i class="iconfont">&#xe60d;</i>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="titile">
+            卡片账户
+        </div>
+    </div>
+    <div class="user">
+        <div class="card-wrapper">
+            <div class="balance">
+                <h2>余额（元）</h2>
+                <div class="text">10.00</div>
+            </div>
+            <div class="card">
+                <div class="card-account">
+                    <p>卡片账号：</p>
+                    <p>xxxxxxxxxxx</p>
+                </div>
+                <div class="card-number">
+                    <p>卡号：</p>
+                    <p>xxxxxxxxxxx</p>
+                </div>
+            </div>
+            <div class="wave-bg">
+            </div>
+        </div>
+        <div class="user-wrapper">
+            <div class="item">
+                <img src="../Content/img/user.png"/>
+                <p>某某某</p>
+            </div>
+            <div class="item">
+                <img src="../Content/img/sex.png"/>
+                <p>女</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-operation">
+        <h2>卡片操作</h2>
+        <div class="operate-wrapper">
+            <div class="item" v-on:click="showRecord">
+                <i class="iconfont">&#xe608;</i>
+                <p>消费记录</p>
+            </div>
+            <div class="item" v-on:click="showReportLoss">
+                <i class="iconfont">&#xe607;</i>
+                <p>挂失</p>
+            </div>
+            <div class="item" v-on:click="showHandSolution">
+                <i class="iconfont">&#xe63b;</i>
+                <p>解挂</p>
+            </div>
+        </div>
+    </div>
+    <div class="nomore">
+        <img src="../Content/img/nomore.png"/>
+    </div>
+    <!--消费记录-->
+
+    <transition name="move">
+        <div class="record" v-show="recordshow">
+            <div class="header">
+                <div class="back" v-on:click="hideRecord">
+                    <i class="iconfont">&#xe60d;</i>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="titile">
+                    消费记录
+                </div>
+            </div>
+            <div class="tabs">
+                <div class="tabs-wrapper">
+                    <div class="tab-item" v-on:click="todayRecord">
+                        <span v-bind:class="{cur:isCur==1}">今日流水</span>
+                    </div>
+                    <div class="tab-item" v-on:click="histroySearch">
+                        <span v-bind:class="{cur:isCur==2}">历史查询</span>
+                    </div>
+                </div>
+                <div class="bg"></div>
+            </div>
+            <div class="today-record" v-if="isCur===1">
+                <div class="list-item">
+                    <div class="left">
+                        <span>商务收费</span>
+                        <p>余额：81.00</p>
+                    </div>
+                    <div class="center">
+                        <span>系统</span>
+                    </div>
+                    <div class="right">
+                        <span class="time">2017-10-31 11:30</span>
+                        <p class="money">-20.00</p>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="left">
+                        <span>商务收费</span>
+                        <p>余额：81.00</p>
+                    </div>
+                    <div class="center">
+                        系统
+                    </div>
+                    <div class="right">
+                        <span class="time">2017-10-31 11:30</span>
+                        <p class="money">-20.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-search" v-if="isCur===2">
+                <div class="search">
+                    <input type="date" class="start" placeholder="开始日期" v-model="searchForm.startDate" />
+                    <span>-</span>
+                    <input type="date" class="end" placeholder="结束日期" v-model="searchForm.endDate" />
+                    <button v-on:click="search"><i class="iconfont">&#xe602;</i></button>
+                </div>
+                <div class="history-list">
+                    <div class="list-wrapper">
+                        <h6 class="month">10月</h6>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>商务收费</span>
+                                <p>余额：81.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money negative">-20.00</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>银行卡充值</span>
+                                <p>余额：100.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money positive">+100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-wrapper">
+                        <h6 class="month">10月</h6>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>商务收费</span>
+                                <p>余额：81.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money negative">-20.00</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>银行卡充值</span>
+                                <p>余额：100.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money positive">+100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-wrapper">
+                        <h6 class="month">10月</h6>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>商务收费</span>
+                                <p>余额：81.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money negative">-20.00</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="left">
+                                <span>银行卡充值</span>
+                                <p>余额：100.00</p>
+                            </div>
+                            <div class="center">
+                                系统
+                            </div>
+                            <div class="right">
+                                <span class="time">2017-10-31 11:30</span>
+                                <p class="money positive">+100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </transition>
+
+
+    <!--挂失-->
+
+    <transition name="move">
+        <div class="report-loss" v-show="reportLossShow">
+            <div class="header">
+                <div class="back" v-on:click="hideReportLoss">
+                    <i class="iconfont">&#xe60d;</i>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="titile">
+                    挂失
+                </div>
+            </div>
+            <div class="main">
+                <p class="tip">输入账号密码，对卡片进行挂失</p>
+                <div class="input">
+                    <i class="iconfont">&#xe623;</i>
+                    <input type="password" placeholder="请输入密码" />
+                </div>
+                <div class="btn">
+                    <button type="button">挂 失</button>
+                </div>
+            </div>
+
+        </div>
+    </transition>
+
+
+
+    <!--解挂-->
+
+    <transition name="move">
+        <div class="hand-solution" v-show="handSolutionShow">
+            <div class="header">
+                <div class="back" v-on:click="hideHandSolution">
+                    <i class="iconfont">&#xe60d;</i>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="titile">
+                    解挂
+                </div>
+            </div>
+            <div class="main">
+                <p class="tip">输入账号密码，对卡片进行解挂</p>
+                <div class="input">
+                    <i class="iconfont">&#xe623;</i>
+                    <input type="password" placeholder="请输入密码" />
+                </div>
+                <div class="btn">
+                    <button type="button">解 挂</button>
+                </div>
+            </div>
+
+        </div>
+    </transition>
+
+</div>
+<script src="../Content/js/cardaccount.js"></script>
+</body>
+</html>

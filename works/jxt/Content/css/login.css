@@ -1,0 +1,114 @@
+﻿body {
+    background: #7fb2ff;
+}
+
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    #app .login {
+        min-height: 100%;
+    }
+
+        #app .login .wrapper {
+            padding-bottom: 60px;
+            padding-top: 40px;
+        }
+
+.logo {
+    text-align: center;
+}
+
+    .logo img {
+        width: 50%;
+    }
+
+    .logo .text {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+.main {
+    margin: 65px 35px 0 35px;
+}
+
+    .main .login-wrapper {
+        width: 100%;
+    }
+
+        .main .login-wrapper .account,
+        .main .login-wrapper .psw {
+            position: relative;
+            padding-left: 30px;
+            text-align: center;
+            border-bottom: 1px solid #f6faff;
+        }
+
+            .main .login-wrapper .account .iconfont,
+            .main .login-wrapper .psw .iconfont {
+                position: absolute;
+                top: 8px;
+                left: 2px;
+                color: #fff;
+                font-size: 18px;
+            }
+
+        .main .login-wrapper .psw {
+            margin-top: 15px;
+        }
+
+        .main .login-wrapper input {
+            padding: 10px 0;
+            width: 100%;
+            color: #fff;
+            background: transparent;
+        }
+
+        .main .login-wrapper .login-in {
+            margin-top: 60px;
+            padding: 18px 10px;
+            width: 100%;
+            line-height: 1;
+            text-align: center;
+            font-size: 16px;
+            background: #a6c9ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+.footer {
+    position: relative;
+    margin-top: -45px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    color: #f1f6ff;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #deeaff;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #deeaff;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #deeaff;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #deeaff;
+}

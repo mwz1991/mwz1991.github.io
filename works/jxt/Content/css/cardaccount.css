@@ -1,0 +1,471 @@
+﻿body {
+    background: #ebf2ff;
+}
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+.header .back {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.header .vertical-line {
+    position:absolute;
+    left:38px;
+    top:15%;
+    height:70%;
+    border-left:1px solid #fff;
+}
+
+.header .titile {
+    padding: 0 50px;
+}
+
+.header .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.user {
+    position:relative;
+    color:#fff;
+    
+}
+    .user .card-wrapper {
+        position: relative;
+        display: flex;
+        padding: 30px 15px 18px 15px;
+        background-color: #7fb2ff;
+    }
+
+        .user .card-wrapper .balance {
+            flex: 1;
+            padding: 15px 20px;
+        }
+            .user .card-wrapper .balance .text {
+                margin-top: 20px;
+                font-size: 24px;
+            }
+        .user .card-wrapper .card {
+            flex: 0.3;
+            padding-left: 10px;
+            min-width: 80px;
+            border-left: 1px dotted #fff;
+            word-break: break-word;
+            font-size: 10px;
+        }
+            .user .card-wrapper .card .card-account {
+                margin: 15px 0 0 0;
+            }
+            .user .card-wrapper .card .card-number {
+                margin: 30px 0 15px 0;
+            }
+        .user .card-wrapper .wave-bg {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 23px;
+            background: url(../img/wave.png);
+            background-size: 100% 100%;
+        }
+    .user .user-wrapper {
+        position: relative;
+        display: flex;
+        padding: 15px 0;
+        background:#fff;
+    }
+        .user .user-wrapper .item {
+            flex: 1;
+            text-align: center;
+            color: #414141;
+        }
+            .user .user-wrapper .item + .item {
+                border-left: 1px solid #e5e5e5;
+            }
+        .user .user-wrapper .item img{
+            width:22px;
+            height:22px;
+        }
+            .user .user-wrapper .item p {
+                margin-top:10px;
+                font-size:12px;
+            }
+        .user .user-wrapper .vertical-line {
+            position: relative;
+            
+            top: 15%;
+            height: 70%;
+            border-left: 1px solid #fff;
+        }
+
+.card-operation {
+    margin-top: 10px;
+    background: #fff;
+    font-size: 12px;
+}
+.card-operation h2{
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    
+}
+    .card-operation .operate-wrapper {
+        display: flex;
+        border-top: 1px solid #e5e5e5;
+    }
+    .card-operation .operate-wrapper .item{
+        flex:1;
+        padding:30px 0 45px 0; 
+        text-align:center;
+    }
+        .card-operation .operate-wrapper .item + .item {
+            border-left: 1px solid #e5e5e5;
+        }
+        .card-operation .operate-wrapper .item i {
+            font-size: 30px;
+            color: #7fb2ff;
+        }
+        .card-operation .operate-wrapper .item p {
+            margin-top: 15px;
+        }
+.nomore{
+    margin-top:40px;
+    text-align:center;
+}
+.nomore img{
+    width:100px;
+}
+
+
+/*record*/
+
+.record {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+    background: #ECF2FF;
+    transition: all 0.2s linear;
+    transform: translate3d(0, 0, 0);
+    overflow: auto;
+}
+
+    .record.move-enter,
+    .record.move-leave-active {
+        transform: translate3d(100%, 0, 0);
+    }
+
+    .record .tabs {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        z-index: 100;
+    }
+
+        .record .tabs .tabs-wrapper {
+            position: absolute;
+            display: flex;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 90%;
+            height: 42px;
+            margin: auto;
+            z-index: 999;
+            background-color: #fff;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+        }
+
+            .record .tabs .tabs-wrapper .tab-item {
+                flex: 1;
+                text-align: center;
+                height: 42px;
+                line-height: 42px;
+                color: #7fb2ff;
+            }
+
+                .record .tabs .tabs-wrapper .tab-item span {
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 42px;
+                }
+
+                    .record .tabs .tabs-wrapper .tab-item span.cur {
+                        border-bottom: 2px solid #7fb2ff;
+                    }
+
+        .record .tabs .bg {
+            height: 50%;
+            background-color: #7fb2ff;
+        }
+
+    .record .today-record {
+        margin-top: 70px;
+        background-color: #fff;
+    }
+
+        .record .today-record .list-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px 10px 15px;
+        }
+
+            .record .today-record .list-item + .list-item {
+                border-top: 1px solid #dbd6d6;
+            }
+
+            .record .today-record .list-item .left span {
+                vertical-align: top;
+                font-size: 14px;
+            }
+
+            .record .today-record .list-item .left p {
+                margin-top: 5px;
+                font-size: 10px;
+                color: #757575;
+            }
+
+            .record .today-record .list-item .center {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .record .today-record .list-item .right .time {
+                vertical-align: top;
+                font-size: 10px;
+                color: #757575;
+            }
+
+            .record .today-record .list-item .right .money {
+                font-size: 12px;
+                color: #fb9ccc;
+            }
+
+    .record .history-search {
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+        .record .history-search .search {
+            display: flex;
+            padding: 0 15px;
+        }
+
+            .record .history-search .search .start {
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                background: #fff;
+            }
+
+            .record .history-search .search span {
+                display: inline-block;
+                width: 40px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                background: #fff;
+            }
+
+            .record .history-search .search .end {
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                background: #fff;
+            }
+
+            .record .history-search .search button {
+                padding: 0 15px;
+                height: 35px;
+                line-height: 35px;
+                border: none;
+                background: #ffffff;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+        .record .history-search .history-list .list-wrapper .month {
+            margin-left: 15px;
+            font-size: 10px;
+            line-height: 20px;
+            color: #7fb2ff;
+        }
+
+        .record .history-search .history-list .list-wrapper .list-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px 10px 15px;
+            background: #fff;
+        }
+
+            .record .history-search .history-list .list-wrapper .list-item + .list-item {
+                border-top: 1px solid #dbd6d6;
+            }
+
+            .record .history-search .history-list .list-wrapper .list-item .left span {
+                vertical-align: top;
+                font-size: 14px;
+            }
+
+            .record .history-search .history-list .list-wrapper .list-item .left p {
+                margin-top: 5px;
+                font-size: 10px;
+                color: #757575;
+            }
+
+            .record .history-search .history-list .list-wrapper .list-item .center {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .record .history-search .history-list .list-wrapper .list-item .right .time {
+                vertical-align: top;
+                font-size: 10px;
+                color: #757575;
+            }
+
+            .record .history-search .history-list .list-wrapper .list-item .right .money {
+                font-size: 12px;
+            }
+
+                .record .history-search .history-list .list-wrapper .list-item .right .money.positive {
+                    color: #7fb2ff;
+                }
+
+                .record .history-search .history-list .list-wrapper .list-item .right .money.negative {
+                    color: #fb9ccc;
+                }
+
+.report-loss {
+    background-image: url(../img/guashi_03.png) !important;
+}
+
+.hand-solution {
+    background-image: url(../img/jiegua_03.png) !important;
+}
+
+.report-loss,
+.hand-solution {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+    background: #ECF2FF;
+    transition: all 0.2s linear;
+    transform: translate3d(0, 0, 0);
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: 80%;
+}
+
+    .report-loss.move-enter,
+    .hand-solution.move-enter,
+    .report-loss.move-leave-active,
+    .hand-solution.move-leave-active {
+        transform: translate3d(100%, 0, 0);
+    }
+
+    .report-loss .main,
+    .hand-solution .main {
+        padding: 36px 40px 0 40px;
+    }
+
+        .report-loss .main .tip,
+        .hand-solution .main .tip {
+            font-size: 10px;
+        }
+
+        .report-loss .main .input,
+        .hand-solution .main .input {
+            position: relative;
+            margin-top: 10px;
+            padding: 0 10px 0 36px;
+            height: 40px;
+            border: 1px solid #dcdcdc;
+            border-radius: 5px;
+            background: #ffffff;
+        }
+
+            .report-loss .main .input .iconfont,
+            .hand-solution .main .input .iconfont {
+                position: absolute;
+                top: 0;
+                left: 10px;
+                line-height: 40px;
+                color: #bebebe;
+            }
+
+            .report-loss .main .input input,
+            .hand-solution .main .input input {
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                background: #fff;
+            }
+
+                .report-loss .main .input input::-webkit-input-placeholder,
+                .hand-solution .main .input input::-webkit-input-placeholder {
+                    /* WebKit, Blink, Edge */
+                    font-size: 10px;
+                    color: #bebebe;
+                }
+
+                .report-loss .main .input input:-moz-placeholder,
+                .hand-solution .main .input input:-moz-placeholder {
+                    /* Mozilla Firefox 4 to 18 */
+                    font-size: 10px;
+                    color: #bebebe;
+                }
+
+                .report-loss .main .input input::-moz-placeholder,
+                .hand-solution .main .input input::-moz-placeholder {
+                    /* Mozilla Firefox 19+ */
+                    font-size: 10px;
+                    color: #bebebe;
+                }
+
+                .report-loss .main .input input:-ms-input-placeholder,
+                .hand-solution .main .input input:-ms-input-placeholder {
+                    /* Internet Explorer 10-11 */
+                    font-size: 10px;
+                    color: #bebebe;
+                }
+
+        .report-loss .main .btn,
+        .hand-solution .main .btn {
+            margin-top: 60px;
+        }
+
+            .report-loss .main .btn button,
+            .hand-solution .main .btn button {
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                border-radius: 5px;
+                background: #5084cb;
+                font-size: 14px;
+                color: #ffffff;
+            }

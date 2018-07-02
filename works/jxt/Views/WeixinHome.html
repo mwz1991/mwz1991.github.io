@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/home.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+    <script>
+        function logout() {
+            window.location.href = "./WeixinHome/logout"
+        }
+    </script>
+</head>
+<body>
+<div id="app">
+    <div class="header">
+        <div class="logo">
+            LOGO
+        </div>
+        <div class="msg">
+            <div class="avatar">
+                <img src="../Content/img/2.jpg" width="70" height="70" onclick="logout()" />
+            </div>
+            <div class="content">
+                <div class="name">李晓华</div>
+                <div class="class">
+                    <i class="cicle"></i>
+                    <span class="text">小学一年级2班</span>
+                </div>
+                <div class="parent-msg">
+                    <span class="name">家长姓名：李程家</span>
+                    <span class="phone">手机号码：13846484545</span>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="left">
+                <i ref="newsIcon" class="iconfont">&#xe628;</i>
+                <span>最新动态</span>
+            </div>
+            <div class="vertical-line"></div>
+            <!--<div class="right">
+            <span class="text">李老师发布了今日作业</span>
+        </div>-->
+            <div class="right">
+                <div ref="marquee" class="marquee">
+                    <ul class="marquee-box">
+                        <li>1、李老师发布了今日作业</li>
+                        <li>2、李老师发布了今日作业</li>
+                        <li>3、李老师发布了今日作业</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="half-cicle-bg"></div>
+    </div>
+    <div class="main">
+        <div class="item-wrapper">
+            <div class="item">
+            <a href="CardAccount.html">
+                <img src="../Content/img/卡片账户.png"/>
+                <p class="text">卡片账号</p>
+            </a>
+        </div>
+            <div class="item">
+                <a href="accountrecharge.html">
+                    <img src="../Content/img/账号充值.png"/>
+                    <p class="text">账号充值</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="HomeworkTask.html">
+                    <img src="../Content/img/作业任务.png"/>
+                    <p class="text">作业任务</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="item-wrapper">
+            <div class="item">
+                <a href="InOutRecord.html">
+                    <img src="../Content/img/进出记录.png"/>
+                    <p class="text">进出记录</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="ResourceDownload.html">
+                    <img src="../Content/img/资源下载.png"/>
+                    <p class="text">资源下载</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="ChangePsw.html">
+                    <img src="../Content/img/密码修改.png"/>
+                    <p class="text">密码修改</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../Content/img/dibu.png"/>
+    </div>
+</div>
+</body>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+
+        },
+        mounted() {
+            //最新动态滚动
+            var marquee = this.$refs.marquee.getElementsByClassName("marquee-box")[0];
+            console.log(marquee.children[0].innerHTML);
+            var li = document.createElement("li");
+            li.innerHTML = marquee.children[0].innerHTML;
+            marquee.appendChild(li);
+            var  sumCount= marquee.children.length;
+            var count = 1;
+            var height = 24;
+            var timer=setInterval(moveUp, 2000);
+            function moveUp() {
+                if (count === sumCount) {
+                    marquee.style.cssText = "transform: translate3d(0px, 0px, 0px); transition: transform 0ms;";
+                    count = 1;
+                    setTimeout(function () {
+                        marquee.style.cssText = "transform: translate3d(0px, " + (-count * height) + "px, 0px); transition: transform 300ms;";
+                        count++;
+                    },0)
+                } else {
+                    marquee.style.cssText = "transform: translate3d(0px, " + (-count * height) + "px, 0px); transition: transform 300ms;";
+                    count++;
+                }
+
+            }
+        },
+        methods: {
+
+        }
+    })
+</script>
+</html>

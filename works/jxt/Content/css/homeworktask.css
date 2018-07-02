@@ -1,0 +1,262 @@
+﻿body {
+    background: #ECF2FF;
+}
+
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+.header .back{
+    position:absolute;
+    left:0;
+    height:40px;
+    padding:0 10px;
+    
+}
+
+.header .vertical-line {
+    position: absolute;
+    left: 38px;
+    top: 15%;
+    height: 70%;
+    border-left: 1px solid #fff;
+}
+
+
+.header .titile {
+    padding: 0 50px;
+}
+.header .right {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding:0 10px;
+}
+.header .right .select-wrapper {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    z-index:100;
+    width: 120px;
+    background: #B5D2FE;
+    border-radius:2px;
+}
+.header .right .select-wrapper:before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 8px;
+    border-bottom-color: #B5D2FE;
+    content: "";
+    position: absolute;
+    top: -16px;
+    right: 10px;
+}
+.header .right .select-wrapper .select-item {
+    text-align:center;
+}
+.header .right .select-wrapper .select-item:hover, .header .right .select-wrapper .select-item:focus {
+    background: #5085CB;
+}
+.homeworklist{
+    padding:30px 10px 30px 10px;
+}
+.bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 60%;
+    height: 40%;
+}
+.bg img{
+    width:100%;
+}
+.homeworklist .list-item {
+    position: relative;
+    padding: 60px 0 20px 0;
+    background: #fff;
+    background-image: linear-gradient(45deg,#ECF2FF 50%,transparent 50%);
+    background-size: 8px 8px;
+    background-image: linear-gradient(45deg,#ECF2FF 25%,transparent 25%), linear-gradient(-45deg,#ECF2FF 25%,transparent 25%);
+    background-repeat: repeat-x;
+    background-position: 67% 100%;
+    overflow: hidden;
+}
+.homeworklist .list-item+.list-item{
+    margin-top:15px;
+}
+.homeworklist .list-item .head-left {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 10;
+    padding: 5px 15px 5px 10px;
+    background: #AE94F5;
+    color: #fff;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.homeworklist .list-item:nth-child(3n+1) .head-left {
+    background: #7AC8F7;
+}
+    .homeworklist .list-item:nth-child(3n+2) .head-left {
+        background: #E887BA;
+    }
+.homeworklist .list-item .head-right {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 0 15px 5px 10px;
+}
+.homeworklist .list-item .head-right .public-person {
+    text-align: right;
+    line-height: 1;
+    font-weight: bold;
+}
+.homeworklist .list-item .head-right .msg {
+    margin-top:5px;
+    font-size: 10px;
+    color: #CECECE;
+}
+.homeworklist .list-item .content {
+        
+}
+.homeworklist .list-item .content .content-item {
+    border-top: 1px solid #F0F0F0;
+    padding:5px 10px 5px 30px;
+}
+.homeworklist .list-item .content .content-item:last-child {
+    border-bottom: 1px solid #F0F0F0;
+}
+.homeworklist .list-item .vertical-line {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 1;
+    width: 2px;
+    height: 1000px;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+}
+.homework-detail {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    z-index: 50;
+    width: 100%;
+    background: #ECF2FF;
+    transition:all 0.2s linear;
+    transform:translate3d(0,0,0);
+}
+.homework-detail.move-enter, .homework-detail.move-leave-active {   
+    transform: translate3d(100%,0,0);
+}
+.homework-detail .main {
+    position: relative;
+    padding: 20px 30px;
+    height: 100%;
+}
+.homework-detail .main .main-wapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 235px;
+    height: 70%;
+    padding: 40px 40px 20px 40px;
+    background: #fff;
+    background-size: 8px 8px;
+    background-image: linear-gradient(135deg,#ECF2FF 25%,transparent 25%), linear-gradient(-135deg,#ECF2FF 25%,transparent 25%);
+    background-repeat: repeat-x;
+    background-position: 67% 0%;
+}
+.homework-detail .main .main-wapper .head {
+    text-align: center;
+    color: #CECECE;
+}
+.homework-detail .main .main-wapper .content {
+    margin-top: 40px;
+    font-size: 20px;
+    height: 50%;
+    overflow: auto;
+}
+.homework-detail .main .main-wapper .content .content-item {
+    margin-top: 15px;
+    line-height: 25px;
+}
+.homework-detail .main .main-wapper .box {
+    position: absolute;
+    bottom: 0px;
+    left: -15px;
+    width: 345px;
+    height: 160px;
+    background: #7FB3FF;
+}
+.homework-detail .main .main-wapper .box .left-triangle {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #5B8AD3;
+    border-left: 15px solid transparent;
+}
+.homework-detail .main .main-wapper .box .right-triangle {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #5B8AD3;
+    border-right: 15px solid transparent;
+}
+.homework-detail .main .main-wapper .box .avatar {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    overflow: hidden;
+}
+.homework-detail .main .main-wapper .box .cicle-bg {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+}
+.homework-detail .main .main-wapper .box .msg {
+    margin-top:80px;
+    text-align:center;
+    width: 100%;
+    color:#fff;
+    font-size:14px;
+}
+.homework-detail .main .main-wapper .box .msg .title {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}

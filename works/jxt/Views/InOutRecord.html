@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>进出查询</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/inoutrecord.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+
+
+</head>
+<body>
+<div id="app">
+    <div class="header">
+        <div class="back" v-on:click="back">
+            <i class="iconfont">&#xe60d;</i>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="titile">
+            进出查询
+        </div>
+    </div>
+    <div class="search">
+        <input type="date" class="start" placeholder="开始日期" v-model="searchForm.startDate" />
+        <span>-</span>
+        <input type="date" class="end" placeholder="结束日期" v-model="searchForm.endDate" />
+        <button v-on:click="search"><i class="iconfont">&#xe602;</i></button>
+    </div>
+    <div class="resource-list">
+        <div class="list-item">
+            <div class="img out">
+                出
+            </div>
+            <div class="content">
+                1号公寓楼
+            </div>
+            <div class="time">
+                2017-03-30 19:57
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="img in">
+                入
+            </div>
+            <div class="content">
+                1号公寓楼
+            </div>
+            <div class="time">
+                2017-03-30 19:57
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../Content/js/inoutrecord.js"></script>
+</body>
+</html>

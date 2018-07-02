@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>资源下载</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/resourcedownload.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+
+
+</head>
+<body>
+<div id="app">
+    <div class="header">
+        <div class="back" v-on:click="back">
+            <i class="iconfont">&#xe60d;</i>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="titile">
+            资源下载
+        </div>
+    </div>
+    <div class="resource-list">
+        <div class="list-item">
+            <div class="img">
+                <img src="../Content/img/word.png"/>
+            </div>
+            <div class="content">
+                <h3 class="name">清明节放假通知.dow</h3>
+                <div class="time">2017-03-30 09:30</div>
+                <div class="desc">清明节放假通知，请各位家长下载查看放假以及相关信息，清明节放假</div>
+            </div>
+            <div class="download-btn">
+                <a v-on:click.stop.prevent="download"> <i class="iconfont">&#xe61e;</i></a>
+
+            </div>
+        </div>
+        <div class="list-item">
+        <div class="img">
+            <img src="../Content/img/excel.png"/>
+        </div>
+        <div class="content">
+            <h3 class="name">清明节放假通知.dow</h3>
+            <div class="time">2017-03-30 09:30</div>
+            <div class="desc">清明节放假通知，请各位家长下载查看放假以及相关信息，清明节放假</div>
+        </div>
+        <div class="download-btn">
+            <i class="iconfont" v-on:click.stop.prevent="download">&#xe61e;</i>
+        </div>
+    </div>
+        <div class="list-item">
+            <div class="img">
+                <img src="../Content/img/mp4.png"/>
+            </div>
+            <div class="content">
+                <h3 class="name">清明节放假通知.dow</h3>
+                <div class="time">2017-03-30 09:30</div>
+                <div class="desc">清明节放假通知，请各位家长下载查看放假以及相关信息，清明节放假</div>
+            </div>
+            <div class="download-btn">
+                <i class="iconfont" v-on:click.stop.prevent="download">&#xe61e;</i>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="img">
+                <img src="../Content/img/pdf.png"/>
+            </div>
+            <div class="content">
+                <h3 class="name">清明节放假通知.dow</h3>
+                <div class="time">2017-03-30 09:30</div>
+                <div class="desc">清明节放假通知，请各位家长下载查看放假以及相关信息，清明节放假</div>
+            </div>
+            <div class="download-btn">
+                <i class="iconfont" v-on:click.stop.prevent="download">&#xe61e;</i>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../Content/js/resourcedownload.js"></script>
+</body>
+</html>

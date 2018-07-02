@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>登陆</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/login.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+    <script>
+        function login() {
+            window.location.href='WeixinHome.html';
+        }
+    </script>
+
+</head>
+<body>
+<div id="app">
+    <div class="login">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../Content/img/loginlogo.png"/>
+                <div class="text">欢迎使用家校通</div>
+            </div>
+            <div class="main">
+                <div class="login-wrapper">
+                    <div class="account">
+                        <i class="iconfont">&#xe606;</i>
+                        <input type="text" placeholder="请输入手机号" id="ptelnum" value="" />
+                    </div>
+                    <div class="psw">
+                        <i class="iconfont">&#xe623;</i>
+                        <input type="password" placeholder="请输入密码" id="pwd" value="" />
+                    </div>
+
+                    <button type="button" class="login-in" onclick="login()">登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer"><span></span></div>
+</div>
+</body>
+</html>

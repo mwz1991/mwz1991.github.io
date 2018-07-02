@@ -2,231 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="875a2412-c6a1-4cb7-90c2-0c45c8eb87f6" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.csslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/mwz1991.github.io.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/AccountRecharge.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/CardAccount.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/ChangePsw.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/HomeworkTask.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/InOutRecord.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/ResourceDownload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/WeixinHome.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/works/jxt/Views/WeixinLogin.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AUTHORS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/.idea/apiDemo.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/jquery-2.1.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/qrcode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apiDemo/vconsole.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/demo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/google1b7eb21c5b594ba0.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/ChromeWebRTCNetworkLimiterExtension_0.1.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/ChromeWebRTCNetworkLimiterExtension_0.2.1.1.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/desktopCaptureExtension.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/cameracontroller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/bump.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-negx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-negy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-negz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-posx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-posy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/images/skybox-posz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/matrix4x4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/teapot-streams.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/webgl-debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-pc/js/third_party/webgl-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/cameracontroller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/bump.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-negx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-negy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-negz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-posx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-posy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/images/skybox-posz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/matrix4x4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/teapot-streams.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/webgl-debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-record/js/third_party/webgl-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/cameracontroller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/bump.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-negx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-negy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-negz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-posx.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-posy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/images/skybox-posz.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/matrix4x4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/teapot-streams.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/webgl-debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/canvas-video/js/third_party/webgl-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-contenthint/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-contenthint/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-contenthint/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-pc/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-pc/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-pc/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-video/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-video/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/capture/video-video/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/basic/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/basic/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/basic/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/basic/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/datatransfer/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/datatransfer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/datatransfer/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/datatransfer/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/filetransfer/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/filetransfer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/filetransfer/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/datachannel/filetransfer/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/input-output/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/input-output/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/input-output/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/audio/audio.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/images/poster.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/video/chrome.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/video/chrome.ogv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/devices/multi/video/chrome.webm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/extension/background.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/extension/content-script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/extension/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/extension/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/desktopcapture/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/img/netli_1280.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/_locales/en/messages.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/background.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/eventPage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/img/icon_128.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/img/icon_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/options.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/extensions/multipleroutes/src/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/audio/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/audio/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/canvas/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/canvas/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/canvas/vconsole.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/face/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/filter/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/filter/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/gum/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/gum/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/gum/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/gum/vconsole.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/record/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/record/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/record/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/resolution/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/resolution/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/resolution/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/source/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/volume/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/volume/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/volume/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/getusermedia/volume/js/soundmeter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/audio/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/audio/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/audio/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/audio/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/bandwidth/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/bandwidth/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/bandwidth/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/constraints/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/constraints/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/constraints/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/create-offer/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/create-offer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/create-offer/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/dtmf/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/dtmf/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/dtmf/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/dtmf/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple-relay/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple-relay/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple-relay/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/multiple/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/munge-sdp/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/munge-sdp/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/munge-sdp/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/munge-sdp/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pc1/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pc1/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pc1/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pc1/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pr-answer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/pr-answer/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/restart-ice/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/restart-ice/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/restart-ice/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/restart-ice/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/states/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/states/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/states/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/trickle-ice/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/trickle-ice/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/trickle-ice/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/trickle-ice/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/upgrade/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/upgrade/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/upgrade/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/upgrade/js/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-input/audio/Shamisen-C4.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-input/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-input/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-input/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-input/js/webaudioextended.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-output/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-output/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-output/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/content/peerconnection/webaudio-output/js/third_party/streamvisualizer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/images/webrtc-icon-192x192.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/ccv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/face.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/ga.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/third_party/graph.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/videopipe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/video/chrome.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/video/chrome.webm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/video/mixed-content.webm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/run-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/server.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -242,7 +26,108 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CardAccount.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/CardAccount.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountrecharge.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/accountrecharge.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changepsw.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/changepsw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeworkTask.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/HomeworkTask.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InOutRecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/InOutRecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inoutrecord.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/inoutrecord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resourcedownload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/resourcedownload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeixinHome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/WeixinHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeixinLogin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/WeixinLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceDownload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/works/jxt/Views/ResourceDownload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -263,6 +148,17 @@
         <option value="$PROJECT_DIR$/apiDemo/index.html" />
         <option value="$PROJECT_DIR$/demo1.html" />
         <option value="$PROJECT_DIR$/src/content/getusermedia/canvas/index.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/AccountRecharge.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/CardAccount.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/ChangePsw.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Content/js/changepsw.js" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/HomeworkTask.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/InOutRecord.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Content/js/inoutrecord.js" />
+        <option value="$PROJECT_DIR$/works/jxt/Content/js/resourcedownload.js" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/ResourceDownload.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/WeixinLogin.html" />
+        <option value="$PROJECT_DIR$/works/jxt/Views/WeixinHome.html" />
       </list>
     </option>
   </component>
@@ -301,6 +197,55 @@
               <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mwz1991.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mwz1991.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="jxt" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -320,6 +265,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ma\ma\WorksCollection\mwz1991.github.io\works\jxt\Content\img" />
       <recent name="C:\Users\Administrator\Desktop\samples-gh-pages\samples-gh-pages\mwz1991.github.io\src\content\getusermedia\gum" />
     </key>
   </component>
@@ -411,17 +357,18 @@
       <updated>1515739781036</updated>
       <workItem from="1515739785660" duration="4728000" />
       <workItem from="1519717484982" duration="4411000" />
-      <workItem from="1530515689281" duration="75000" />
+      <workItem from="1530515689281" duration="4457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9214000" />
+    <option name="totallyTimeSpent" value="13596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20758693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20758693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -596,6 +543,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="642">
           <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/AccountRecharge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/ChangePsw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/accountrecharge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/changepsw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/HomeworkTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/inoutrecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/InOutRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/ResourceDownload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Content/js/resourcedownload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/CardAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/WeixinLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/jxt/Views/WeixinHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
           <folding />
         </state>
       </provider>

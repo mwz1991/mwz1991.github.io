@@ -1,0 +1,135 @@
+﻿body {
+    background: #ebf2ff;
+}
+
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+    .header .back {
+        position: absolute;
+        left: 0;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .header .vertical-line {
+        position: absolute;
+        left: 38px;
+        top: 15%;
+        height: 70%;
+        border-left: 1px solid #fff;
+    }
+
+    .header .titile {
+        padding: 0 50px;
+    }
+
+    .header .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+.resource-list {
+    padding: 0 15px;
+}
+
+    .resource-list .list-item {
+        display: flex;
+        margin-top: 10px;
+        padding: 3px 5px;
+        /*height: 50px;*/
+        background: #fff;
+    }
+
+        .resource-list .list-item .img {
+            border-radius: 2px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+            font-size:24px;
+        }
+
+            .resource-list .list-item .img.out {
+                background: #fb9ccc;
+            }
+            .resource-list .list-item .img.in {
+                background: #77c5f3;
+                
+            }
+        .resource-list .list-item .content {
+            flex: 1;
+            margin: 0 7px;
+            padding: 17px 0;
+            vertical-align: top;
+            min-width: 100px;
+            /* line-height: 55px; */
+            font-size: 16px
+        }
+
+
+
+        .resource-list .list-item .time {
+            width: 110px;
+            text-align: center;
+            /* line-height: 55px; */
+            padding: 20px 0px;
+            font-size: 10px;
+            color: #6b6b6b;
+        }
+
+           
+
+
+ .search {
+        display: flex;
+        padding: 0 15px;
+        margin-top:20px;
+    }
+
+         .search .start {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            background: #fff;
+        }
+
+         .search span {
+            display: inline-block;
+            width: 40px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            background: #fff;
+        }
+
+         .search .end {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            background: #fff;
+        }
+
+         .search button {
+            padding: 0 15px;
+            height: 35px;
+            line-height: 35px;
+            border: none;
+            background: #ffffff;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+        }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>账户充值</title>
+    <link rel="stylesheet" href="../Content/css/reset.css">
+    <link rel="stylesheet" href="../Content/css/accountrecharge.css">
+    <script src="../Content/js/vue.js"></script>
+    <script src="../Content/js/jquery-2.1.1.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="app">
+    <div class="header">
+        <div class="back" v-on:click="back">
+            <i class="iconfont">&#xe60d;</i>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="titile">
+            账户充值
+        </div>
+    </div>
+    <div class="rechargemoney">
+        <h2>充值金额</h2>
+        <div class="input">
+            <i>￥</i>
+            <input type="number" placeholder="本次最多可充值200元">
+        </div>
+        <p>可用余额0元</p>
+    </div>
+    <div class="msg">
+        <div class="item">
+            <span class="input-label">支付账号</span>
+            <input type="number" placeholder="请输入银行卡号">
+        </div>
+        <div class="item">
+            <span class="input-label">密码</span>
+            <input type="password" placeholder="银行卡取款密码">
+        </div>
+        <div class="item">
+            <span class="input-label">短信验证</span>
+            <input type="number" placeholder="短信验证码">
+            <div class="shortmessage">
+                <span v-show="yzmShow" class="yzm" v-on:click="getCode">点击获取</span>
+                <span v-show="!yzmShow" class="yzm count">{{count}} s</span>
+            </div>
+
+        </div>
+        <div style="height:10px;"></div>
+    </div>
+    <div class="pay-way">
+        选择其他支付方式
+    </div>
+    <div class="btn">
+        <button v-on:click="pay">确认支付</button>
+    </div>
+
+    <!--充值结果-->
+
+    <transition name="move">
+        <div class="recharge-result" v-show="rechargeResultShow">
+            <div class="header">
+                <div class="back" v-on:click="hideRechargeResult">
+                    <i class="iconfont">&#xe60d;</i>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="titile">
+                    充值结果
+                </div>
+            </div>
+            <div class="main">
+                <div class="img">
+                    <img src="../Content/img/recharge.png"/>
+                    <p>充值完成</p>
+                </div>
+                <div class="text">
+                    <h6>您已充值（元）</h6>
+                    <span class="money">200.00</span>
+                </div>
+            </div>
+            <div class="btn">
+                <button>完成</button>
+            </div>
+        </div>
+
+    </transition>
+</div>
+<script src="../Content/js/accountrecharge.js"></script>
+</body>
+</html>

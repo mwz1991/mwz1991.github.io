@@ -1,0 +1,104 @@
+﻿body {
+    background: #ebf2ff;
+}
+
+.header {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #7FB3FF;
+    color: #fff;
+}
+
+    .header .back {
+        position: absolute;
+        left: 0;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .header .vertical-line {
+        position: absolute;
+        left: 38px;
+        top: 15%;
+        height: 70%;
+        border-left: 1px solid #fff;
+    }
+
+    .header .titile {
+        padding: 0 50px;
+    }
+
+    .header .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+.resource-list {
+    padding: 0 15px;
+}
+
+    .resource-list .list-item {
+        display: flex;
+        margin-top: 10px;
+        padding: 3px 5px;
+        height: 50px;
+        background: #fff;
+    }
+
+        .resource-list .list-item .img {
+            border-radius: 2px;
+        }
+
+            .resource-list .list-item .img img {
+                width: 50px;
+                height: 50px;
+            }
+
+        .resource-list .list-item .content {
+            flex: 1;
+            margin: 0 7px;
+            vertical-align: top;
+            min-width: 100px;
+        }
+
+            .resource-list .list-item .content .name {
+                margin-top: 6px;
+                font-size: 12px;
+                color: #393939;
+            }
+
+            .resource-list .list-item .content .time {
+                margin-top: 5px;
+                font-size: 10px;
+                color: #6b6b6b;
+            }
+
+            .resource-list .list-item .content .desc {
+                margin-top: 6px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 12px;
+                font-size: 10px;
+                color: #6b6b6b;
+            }
+
+        .resource-list .list-item .download-btn {
+            width: 30px;
+            text-align: center;
+            line-height: 55px;
+        }
+
+            .resource-list .list-item .download-btn .iconfont {
+                font-size: 24px;
+                color: #f99f03;
+            }
+
+                .resource-list .list-item .download-btn .iconfont.active {
+                    color: #7fb2ff;
+                }
